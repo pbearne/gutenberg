@@ -55,7 +55,7 @@ export const GLOBAL_STYLES_GRADIENTS = {
 
 export const DEFAULT_GLOBAL_STYLES = {
 	color: {
-		background: 'var(--wp--preset--color--green)',
+		backgroundColor: 'var(--wp--preset--color--green)',
 		text: 'var(--wp--preset--color--blue)',
 	},
 	typography: {
@@ -84,7 +84,7 @@ export const DEFAULT_GLOBAL_STYLES = {
 	blocks: {
 		'core/button': {
 			color: {
-				background: 'var(--wp--preset--color--purple)',
+				backgroundColor: 'var(--wp--preset--color--purple)',
 				text: 'var(--wp--preset--color--green)',
 			},
 			typography: {
@@ -96,7 +96,7 @@ export const DEFAULT_GLOBAL_STYLES = {
 
 export const PARSED_GLOBAL_STYLES = {
 	color: {
-		background: '#D1E4DD',
+		backgroundColor: '#D1E4DD',
 		text: '#D1DFE4',
 	},
 	typography: {
@@ -125,7 +125,7 @@ export const PARSED_GLOBAL_STYLES = {
 	blocks: {
 		'core/button': {
 			color: {
-				background: '#D1D1E4',
+				backgroundColor: '#D1D1E4',
 				text: '#D1E4DD',
 			},
 			typography: {

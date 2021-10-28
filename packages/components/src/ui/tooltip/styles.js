@@ -27,7 +27,7 @@ export const TooltipContent = css`
 `;
 
 export const TooltipPopoverView = styled.div`
-	background: rgba( 0, 0, 0, 0.8 );
+	background-color: rgba( 0, 0, 0, 0.8 );
 	border-radius: 2px;
 	box-shadow: 0 0 0 1px rgba( 255, 255, 255, 0.04 );
 	color: ${ COLORS.white };

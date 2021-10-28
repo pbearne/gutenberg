@@ -42,7 +42,7 @@
 
 	&.is-primary {
 		white-space: nowrap;
-		background: var(--wp-admin-theme-color);
+		background-color: var(--wp-admin-theme-color);
 		color: $white;
 		text-decoration: none;
 		text-shadow: none;
@@ -51,12 +51,12 @@
 		outline: 1px solid transparent;
 
 		&:hover:not(:disabled) {
-			background: var(--wp-admin-theme-color-darker-10);
+			background-color: var(--wp-admin-theme-color-darker-10);
 			color: $white;
 		}
 
 		&:active:not(:disabled) {
-			background: var(--wp-admin-theme-color-darker-20);
+			background-color: var(--wp-admin-theme-color-darker-20);
 			border-color: var(--wp-admin-theme-color-darker-20);
 			color: $white;
 		}
@@ -71,7 +71,7 @@
 		&[aria-disabled="true"]:enabled, // This catches a situation where a Button is aria-disabled, but not disabled.
 		&[aria-disabled="true"]:active:enabled {
 			color: rgba($white, 0.4);
-			background: var(--wp-admin-theme-color);
+			background-color: var(--wp-admin-theme-color);
 			border-color: var(--wp-admin-theme-color);
 			opacity: 1;
 			outline: none;
@@ -112,7 +112,7 @@
 		outline: 1px solid transparent;
 
 		&:active:not(:disabled) {
-			background: $gray-300;
+			background-color: $gray-300;
 			color: var(--wp-admin-theme-color-darker-10);
 			box-shadow: none;
 		}

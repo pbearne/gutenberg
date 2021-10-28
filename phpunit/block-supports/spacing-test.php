@@ -83,12 +83,12 @@ class WP_Block_Supports_Spacing_Test extends WP_UnitTestCase {
 	function test_spacing_gap_block_support_renders_appended_block_inline_style() {
 		register_block_type( 'test/test-block', $this->test_gap_block_args );
 		$render_output = gutenberg_render_spacing_gap_support(
-			'<div class="wp-test-block" style="background: green;"><p style="color: red;">Test</p></div>',
+			'<div class="wp-test-block" style="background-color: green;"><p style="color: red;">Test</p></div>',
 			$this->test_gap_block_value
 		);
 
 		$this->assertSame(
-			'<div class="wp-test-block" style="--wp--style--block-gap: 3em; background: green;"><p style="color: red;">Test</p></div>',
+			'<div class="wp-test-block" style="--wp--style--block-gap: 3em; background-color: green;"><p style="color: red;">Test</p></div>',
 			$render_output
 		);
 	}

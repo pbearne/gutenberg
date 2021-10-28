@@ -32,7 +32,7 @@ describe( 'props', () => {
 			<View
 				as="p"
 				css={ `
-					background: pink;
+					background-color: pink;
 				` }
 			>
 				<span />
@@ -46,7 +46,7 @@ describe( 'props', () => {
 			<View
 				as="p"
 				css={ {
-					background: 'pink',
+					backgroundColor: 'pink',
 				} }
 			>
 				<span />
@@ -61,7 +61,7 @@ describe( 'props', () => {
 				as="p"
 				css={ [
 					{
-						background: 'pink',
+						backgroundColor: 'pink',
 					},
 					`font-weight: bold;`,
 				] }

@@ -127,7 +127,7 @@ function gutenberg_apply_colors_support( $block_type, $block_attributes ) {
 		if ( $has_named_gradient ) {
 			$classes[] = sprintf( 'has-%s-gradient-background', gutenberg_experimental_to_kebab_case( $block_attributes['gradient'] ) );
 		} elseif ( $has_custom_gradient ) {
-			$styles[] = sprintf( 'background: %s;', $block_attributes['style']['color']['gradient'] );
+			$styles[] = sprintf( 'background-image: %s;', $block_attributes['style']['color']['gradient'] );
 		}
 	}
 

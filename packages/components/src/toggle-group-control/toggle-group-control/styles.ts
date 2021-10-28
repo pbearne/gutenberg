@@ -10,7 +10,7 @@ import styled from '@emotion/styled';
 import { CONFIG, COLORS, reduceMotion } from '../../utils';
 
 export const ToggleGroupControl = css`
-	background: ${ COLORS.ui.background };
+	background: ${ COLORS.ui.backgroundColor };
 	border: 1px solid;
 	border-color: ${ COLORS.ui.border };
 	border-radius: ${ CONFIG.controlBorderRadius };

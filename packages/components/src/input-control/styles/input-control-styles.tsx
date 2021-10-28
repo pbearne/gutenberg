@@ -65,7 +65,7 @@ export const Root = styled( Flex )< RootProps >`
 const containerDisabledStyles = ( { disabled }: ContainerProps ) => {
 	const backgroundColor = disabled
 		? COLORS.ui.backgroundDisabled
-		: COLORS.ui.background;
+		: COLORS.ui.backgroundColor;
 
 	return css( { backgroundColor } );
 };

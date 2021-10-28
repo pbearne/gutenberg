@@ -65,7 +65,7 @@ export const _default = () => {
 						<View style={ { padding: 20, paddingBottom: 40 } }>
 							<ElevationWrapper>
 								<Elevation
-									style={ { background: 'white' } }
+									style={ { backgroundColor: 'white' } }
 									value={ index }
 								/>
 							</ElevationWrapper>

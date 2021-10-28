@@ -62,14 +62,14 @@ const DragExample = ( props ) => {
 				<p>Move the gray box around.</p>
 				<p>
 					The{ ' ' }
-					<strong style={ { background: 'pink' } }>
+					<strong style={ { backgroundColor: 'pink' } }>
 						pink bordered
 					</strong>{ ' ' }
 					element is a parent.
 				</p>
 				<p>
 					The{ ' ' }
-					<strong style={ { background: 'cyan' } }>
+					<strong style={ { backgroundColor: 'cyan' } }>
 						cyan bordered
 					</strong>{ ' ' }
 					element is a sibling to <strong>Popover</strong>.
@@ -90,7 +90,7 @@ const DragExample = ( props ) => {
 			>
 				<DraggableWrapper
 					style={ {
-						background: '#ddd',
+						backgroundColor: '#ddd',
 						border: '2px solid pink',
 						borderRadius: 4,
 						padding: 10,
@@ -148,7 +148,7 @@ function DynamicHeightPopover() {
 					<div
 						style={ {
 							height,
-							background: '#eee',
+							backgroundColor: '#eee',
 							padding: '20px',
 						} }
 					>

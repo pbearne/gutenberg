@@ -21,7 +21,7 @@ const Item = ( props ) => (
 	<View
 		style={ {
 			borderRadius: 8,
-			background: '#eee',
+			backgroundColor: '#eee',
 			padding: 8,
 			textAlign: 'center',
 		} }

@@ -539,13 +539,13 @@ describe( 'renderAttributes()', () => {
 		it( 'should escape string attributes', () => {
 			const result = renderAttributes( {
 				style: {
-					background: 'url("foo.png")',
+					backgroundImage: 'url("foo.png")',
 				},
 				href: '/index.php?foo=bar&qux=<"scary">',
 			} );
 
 			expect( result ).toBe(
-				' style="background:url(&quot;foo.png&quot;)" href="/index.php?foo=bar&amp;qux=<&quot;scary&quot;&gt;"'
+				' style="background-image:url(&quot;foo.png&quot;)" href="/index.php?foo=bar&amp;qux=<&quot;scary&quot;&gt;"'
 			);
 		} );
 

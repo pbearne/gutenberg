@@ -190,7 +190,7 @@ Themes are responsible for creating the classes that apply the gradients. So to 
 
 ```css
 .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-	background: linear-gradient(
+	background-image: linear-gradient(
 		135deg,
 		rgba( 6, 147, 227, 1 ) 0%,
 		rgb( 155, 81, 224 ) 100%

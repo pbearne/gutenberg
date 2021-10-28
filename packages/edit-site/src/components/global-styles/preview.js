@@ -19,11 +19,13 @@ const StylesPreview = () => {
 	const [ linkColor = 'blue' ] = useStyle( 'elements.link.color.text' );
 	const [ backgroundColor = 'white' ] = useStyle( 'color.background' );
 	const [ gradientValue ] = useStyle( 'color.gradient' );
-
+	const [ backgroundStyle ] = gradientValue
+		? { backgroundImage: gradientValue }
+		: { backgroundColor: backgroundColor };
 	return (
 		<Card
 			className="edit-site-global-styles-preview"
-			style={ { background: gradientValue ?? backgroundColor } }
+			style={ { backgroundStyle } }
 		>
 			<HStack spacing={ 5 }>
 				<div

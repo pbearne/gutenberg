@@ -1,6 +1,6 @@
 .entities-saved-states__panel {
 	@include reset;
-	background: $white;
+	background-color: $white;
 	position: fixed;
 	z-index: z-index(".entities-saved-states__panel");
 	top: $admin-bar-height-big;
@@ -36,7 +36,7 @@
 	}
 
 	.entities-saved-states__panel-header {
-		background: $white;
+		background-color: $white;
 		padding-left: $grid-unit-10;
 		padding-right: $grid-unit-10;
 		height: $header-height + $border-width;

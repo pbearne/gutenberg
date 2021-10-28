@@ -61,7 +61,7 @@ exports[`props should render correctly 1`] = `
 .emotion-4>div {
   -webkit-animation: ComponentsUISpinnerFadeAnimation 1000ms linear infinite;
   animation: ComponentsUISpinnerFadeAnimation 1000ms linear infinite;
-  background: currentColor;
+  background-color: currentColor;
   border-radius: 50px;
   height: 16%;
   left: 49%;

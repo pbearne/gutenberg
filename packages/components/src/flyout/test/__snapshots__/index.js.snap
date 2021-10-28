@@ -36,7 +36,7 @@ exports[`props should render correctly 1`] = `
 }
 
 .emotion-7 {
-  background: transparent;
+  background-color: transparent;
   display: block;
   margin: 0!important;
   pointer-events: none;
@@ -61,7 +61,7 @@ exports[`props should render correctly 1`] = `
 }
 
 .emotion-9 {
-  background: transparent;
+  background-color: transparent;
   display: block;
   margin: 0!important;
   pointer-events: none;

@@ -1,5 +1,5 @@
 .components-panel {
-	background: $white;
+	background-color: $white;
 	border: $border-width solid $gray-200;
 
 	> .components-panel__header:first-child,
@@ -69,7 +69,7 @@
 // Hover States
 .components-panel__body > .components-panel__body-title:hover {
 	// Override the default button hover style
-	background: $gray-100;
+	background-color: $gray-100;
 	border: none;
 }
 

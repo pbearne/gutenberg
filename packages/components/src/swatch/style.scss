@@ -3,7 +3,7 @@
 	height: 18px;
 	border-radius: 50%;
 	color: transparent;
-	background: transparent;
+	background-color: transparent;
 
 	// Regular border doesn't seem to work in the toolbar button, but pseudo-selector border does.
 	&::after {

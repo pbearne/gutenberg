@@ -12,7 +12,7 @@
 	&.is-saving[aria-disabled="true"]:hover,
 	&.is-saved[aria-disabled="true"],
 	&.is-saved[aria-disabled="true"]:hover {
-		background: transparent;
+		background-color: transparent;
 		color: $gray-700;
 	}
 

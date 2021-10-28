@@ -64,7 +64,7 @@
 		right: 0;
 		bottom: 0;
 		content: "";
-		background: transparent;
+		background-color: transparent;
 		z-index: z-index(".edit-post-meta-boxes-area.is-loading::before");
 	}
 
@@ -90,7 +90,7 @@
 		border: $border-width solid $gray-700;
 
 		&:checked {
-			background: $white;
+			background-color: $white;
 			border-color: $gray-700;
 		}
 

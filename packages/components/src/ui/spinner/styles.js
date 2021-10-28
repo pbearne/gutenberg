@@ -37,7 +37,7 @@ export const BarsView = styled.div`
 
 	> div {
 		animation: ComponentsUISpinnerFadeAnimation 1000ms linear infinite;
-		background: currentColor;
+		background-color: currentColor;
 		border-radius: 50px;
 		height: 16%;
 		left: 49%;

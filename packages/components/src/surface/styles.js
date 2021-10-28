@@ -44,11 +44,11 @@ export function getBorders( {
 export const primary = css``;
 
 export const secondary = css`
-	background: ${ CONFIG.surfaceBackgroundTintColor };
+	background-color: ${ CONFIG.surfaceBackgroundTintColor };
 `;
 
 export const tertiary = css`
-	background: ${ CONFIG.surfaceBackgroundTertiaryColor };
+	background-color: ${ CONFIG.surfaceBackgroundTertiaryColor };
 `;
 
 /**
@@ -103,7 +103,9 @@ export const getDotted = (
 	surfaceBackgroundSize,
 	surfaceBackgroundSizeDotted
 ) => css`
-	background: ${ dottedBackgroundCombined( surfaceBackgroundSizeDotted ) };
+	background-color: ${ dottedBackgroundCombined(
+		surfaceBackgroundSizeDotted
+	) };
 	background-size: ${ customBackgroundSize( surfaceBackgroundSize ) };
 `;
 
@@ -129,7 +131,7 @@ const gridBackgroundCombined = [
  */
 export const getGrid = ( surfaceBackgroundSize ) => {
 	return css`
-		background: ${ CONFIG.surfaceBackgroundColor };
+		background-color: ${ CONFIG.surfaceBackgroundColor };
 		background-image: ${ gridBackgroundCombined };
 		background-size: ${ customBackgroundSize( surfaceBackgroundSize ) };
 	`;

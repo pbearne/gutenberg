@@ -10,7 +10,10 @@ import Icon from '../icon';
 
 function Swatch( { fill } ) {
 	return fill ? (
-		<span className="components-swatch" style={ { background: fill } } />
+		<span
+			className="components-swatch"
+			style={ { backgroundColor: fill } }
+		/>
 	) : (
 		<Icon icon={ swatch } />
 	);

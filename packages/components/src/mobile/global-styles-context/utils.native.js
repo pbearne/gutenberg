@@ -21,7 +21,7 @@ export const BLOCK_STYLE_ATTRIBUTES = [
 const BLOCK_STYLE_ATTRIBUTES_MAPPING = {
 	textColor: 'color',
 	text: 'color',
-	background: 'backgroundColor',
+	backgroundColor: 'backgroundColor',
 	link: 'linkColor',
 	placeholder: 'placeholderColor',
 };

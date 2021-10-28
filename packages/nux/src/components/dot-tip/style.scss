@@ -13,7 +13,7 @@ $dot-scale: 3;  // How much the pulse animation should scale up by in size
 
 	&::before {
 		animation: nux-pulse 1.6s infinite cubic-bezier(0.17, 0.67, 0.92, 0.62);
-		background: rgba(#00739c, 0.9);
+		background-color: rgba(#00739c, 0.9);
 		opacity: 0.9;
 		height: $dot-size * $dot-scale;
 		left: -($dot-size * $dot-scale) * 0.5;
@@ -23,7 +23,7 @@ $dot-scale: 3;  // How much the pulse animation should scale up by in size
 	}
 
 	&::after {
-		background: #00739c;
+		background-color: #00739c;
 		height: $dot-size;
 		left: -$dot-size * 0.5;
 		top: -$dot-size * 0.5;
@@ -32,7 +32,7 @@ $dot-scale: 3;  // How much the pulse animation should scale up by in size
 
 	@keyframes nux-pulse {
 		100% {
-			background: rgba(#00739c, 0);
+			background-color: rgba(#00739c, 0);
 			transform: scale(1);
 		}
 	}

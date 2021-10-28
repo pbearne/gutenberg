@@ -348,7 +348,7 @@ Object {
 }
 
 .emotion-18 {
-  background: transparent;
+  background-color: transparent;
   display: block;
   margin: 0!important;
   pointer-events: none;
@@ -604,7 +604,7 @@ Object {
 }
 
 .emotion-18 {
-  background: transparent;
+  background-color: transparent;
   display: block;
   margin: 0!important;
   pointer-events: none;
@@ -799,7 +799,7 @@ exports[`Card Card component should warn when the isElevated prop is passed 1`] 
 }
 
 .emotion-4 {
-  background: transparent;
+  background-color: transparent;
   display: block;
   margin: 0!important;
   pointer-events: none;
@@ -824,7 +824,7 @@ exports[`Card Card component should warn when the isElevated prop is passed 1`] 
 }
 
 .emotion-6 {
-  background: transparent;
+  background-color: transparent;
   display: block;
   margin: 0!important;
   pointer-events: none;

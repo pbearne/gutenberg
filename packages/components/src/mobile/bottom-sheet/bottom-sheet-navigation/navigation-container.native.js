@@ -82,7 +82,7 @@ function BottomSheetNavigationContainer( {
 		...DefaultTheme,
 		colors: {
 			...DefaultTheme.colors,
-			background: backgroundStyle.backgroundColor,
+			backgroundColor: backgroundStyle.backgroundColor,
 		},
 	};
 

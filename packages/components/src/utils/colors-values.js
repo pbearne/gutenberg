@@ -152,7 +152,7 @@ export const ADMIN = {
 // Namespaced values for raw colors hex codes
 export const UI = {
 	theme: ADMIN.theme,
-	background: BASE.white,
+	backgroundColor: BASE.white,
 	backgroundDisabled: LIGHT_GRAY[ 200 ],
 	border: G2.gray[ 700 ],
 	borderHover: G2.gray[ 700 ],

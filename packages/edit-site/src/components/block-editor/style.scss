@@ -52,7 +52,7 @@
 	appearance: none;
 	cursor: grab;
 	outline: none;
-	background: $gray-700;
+	background-color: $gray-700;
 	border-radius: 4px;
 	border: 0;
 
@@ -65,12 +65,12 @@
 	}
 
 	&:hover {
-		background: $gray-600;
+		background-color: $gray-600;
 	}
 
 	&:active {
 		cursor: grabbing;
-		background: $gray-600;
+		background-color: $gray-600;
 	}
 
 	&:focus {

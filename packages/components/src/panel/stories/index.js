@@ -101,5 +101,5 @@ function ScrollableContainer( { children } ) {
 }
 
 function Placeholder( { height = 200 } ) {
-	return <div style={ { background: '#ddd', height, width: '100%' } } />;
+	return <div style={ { backgroundColor: '#ddd', height, width: '100%' } } />;
 }

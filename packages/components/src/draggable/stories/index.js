@@ -21,7 +21,7 @@ const Box = ( props ) => {
 				justifyContent: 'center',
 				width: 100,
 				height: 100,
-				background: '#ddd',
+				backgroundColor: '#ddd',
 			} }
 		/>
 	);
